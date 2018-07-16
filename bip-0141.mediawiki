@@ -290,14 +290,14 @@ As a soft fork, older software will continue to operate without modification.  N
 
 '''What a non-upgraded wallet can do'''
 
-* Receiving bitcoin from non-upgraded and upgraded wallets
-* Sending bitcoin to non-upgraded and upgraded wallets with traditional P2PKH address (without any benefit of segregated witness)
-* Sending bitcoin to upgraded wallets using a P2SH address
-* Sending bitcoin to upgraded wallets using a native witness program through [https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki BIP70] payment protocol
+* Receive bitcoin from non-upgraded and upgraded wallets
+* Send bitcoin to non-upgraded and upgraded wallets with traditional P2PKH address (without any benefit of segregated witness)
+* Send bitcoin to upgraded wallets using a P2SH address
+* Send bitcoin to upgraded wallets using a native witness program through [https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki BIP70] payment protocol
 
 '''What a non-upgraded wallet cannot do'''
 
-* Validating segregated witness transaction. It assumes such a transaction is always valid
+* Validate a segregated witness transaction (it assumes such a transaction is always valid)
 
 == Deployment ==
 
